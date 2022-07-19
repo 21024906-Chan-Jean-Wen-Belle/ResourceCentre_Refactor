@@ -19,7 +19,7 @@ public class Item {
 				description, 
 				showAvailability(isAvailable),
 				dueDate);
-		return null;
+		return itemInfo;
 	}
 	
 	public String showAvailability(boolean isAvailable) {
@@ -32,7 +32,7 @@ public class Item {
 		}
 		return avail;
 	}
-	
+
 	public String getAssetTag() {
 		return assetTag;
 	}
